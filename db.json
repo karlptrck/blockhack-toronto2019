@@ -1,0 +1,25 @@
+{
+  "aibe": [
+    {
+      "address": "0xxxxsss",
+      "received": false,
+      "createdAt": 1556429755982,
+      "id": 1
+    },
+    {
+      "address": "0xxxxsss",
+      "received": false,
+      "createdAt": 1556430080463,
+      "id": 2
+    },
+    {
+      "address": "0xxxxsss",
+      "received": false,
+      "createdAt": 1556430187156,
+      "id": 3
+    }
+  ],
+  "aibx": [],
+  "aibo": [],
+  "aibw": []
+}
