@@ -1,8 +1,5 @@
 const StellarSdk = require('stellar-sdk');
 StellarSdk.Network.useTestNetwork();
-const fetch = require('node-fetch');
-var airdropAmount = 10;
-
 
 const server = new StellarSdk.Server('https://horizon-testnet.stellar.org')
 const sourceKeys = StellarSdk.Keypair.fromSecret('SCPYS2JDV427RZJE2SAZRAOG5WO2AW7NEZZRK2FUJH4R2GHZV7QFRKLD'); 
@@ -11,7 +8,7 @@ class Stellar{
     
     constructor(){}
 
-    send(destinationId){
+    send(destinationId, airdropAmount){
         // Transaction will hold a built transaction we can resubmit if the result is unknown.
         var transaction;
         

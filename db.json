@@ -2,26 +2,31 @@
   "aibe": [
     {
       "address": "0xffcf8fdee72ac11b5c542428b35eef5769c409f0",
+      "amount" : 1,
       "received": false,
       "id": 1
     },
     {
       "address": "0x22d491bde2303f2f43325b2108d26f1eaba1e32b",
+      "amount" : 1,
       "received": false,
       "id": 2
     },
     {
       "address": "0xe11ba2b4d45eaed5996cd0823791e0c93114882d",
+      "amount" : 1,
       "received": false,
       "id": 3
     },
     {
       "address": "0xd03ea8624c8c5987235048901fb614fdca89b117",
+      "amount" : 1,
       "received": false,
       "id": 4
     },
     {
       "address": "0x95ced938f7991cd0dfcb48f0a06a40fa1af46ebc",
+      "amount" : 1,
       "received": false,
       "id": 5
     }
@@ -29,35 +34,28 @@
   "aibx": [
     {
       "address": "GCJHGF7FNN7Z4QZIAG4OYGMVSISVLMSS7WTPS7RAULMK5TVSXLHK6TOA",
+      "amount" : 1,
       "received": false,
       "id": 1
-    },
-    {
-      "address": "",
-      "received": false,
-      "id": 2
-    },
-    {
-      "address": "",
-      "received": false,
-      "id": 3
     }
-
   ],
   "aibo": [],
   "aibw": [
     {
       "address": "3MpVUtNmLbb8r5x9k81hqqzTXH7xN8JxFTd",
+      "amount" : 100,
       "received": false,
       "id": 1
     },
     {
       "address": "3Mp3MrnvAjotssESr8QCc3gj33jsGrgpQ4r",
+      "amount" : 100,
       "received": false,
       "id": 2
     },
     {
       "address": "3N2DB8mzMuX3oDkjKghnJ3eyYvGZRJJHU8H",
+      "amount" : 100,
       "received": false,
       "id": 3
     }
