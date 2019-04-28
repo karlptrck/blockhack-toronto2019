@@ -1,11 +1,9 @@
-import Stellar from './protocols/stellar.js'
-
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
-
+const Stellar = require('./protocols/Stellar')
 
 const stellar = new Stellar()
 
@@ -22,12 +20,13 @@ server.use(jsonServer.bodyParser)
 
 server.post('/airdrop', (req, res) => {
     var protocol = req.body.protocol
+    var address = req.body.address
 
     switch(protocol){
         case protocols.AI_BE : 
 
         case protocols.AI_BX :
-            stellar.send('karl')
+            stellar.send(address)
 
         case protocols.AI_BO :
 
