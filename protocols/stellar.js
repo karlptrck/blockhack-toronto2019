@@ -1,6 +1,7 @@
 const StellarSdk = require('stellar-sdk');
 StellarSdk.Network.useTestNetwork();
 const fetch = require('node-fetch');
+var airdropAmount = 10;
 
 
 const server = new StellarSdk.Server('https://horizon-testnet.stellar.org')
@@ -31,7 +32,7 @@ class Stellar{
                 // Because Stellar allows transaction in many currencies, you must
                 // specify the asset type. The special "native" asset represents Lumens.
                 asset: StellarSdk.Asset.native(),
-                amount: "10"
+                amount: airdropAmount
             }))
             // A memo allows you to add your own metadata to a transaction. It's
             // optional and does not affect how Stellar treats the transaction.

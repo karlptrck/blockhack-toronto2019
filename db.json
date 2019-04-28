@@ -26,7 +26,40 @@
       "id": 5
     }
   ],
-  "aibx": [],
+  "aibx": [
+    {
+      "address": "GCJHGF7FNN7Z4QZIAG4OYGMVSISVLMSS7WTPS7RAULMK5TVSXLHK6TOA",
+      "received": false,
+      "id": 1
+    },
+    {
+      "address": "",
+      "received": false,
+      "id": 2
+    },
+    {
+      "address": "",
+      "received": false,
+      "id": 3
+    }
+
+  ],
   "aibo": [],
-  "aibw": []
+  "aibw": [
+    {
+      "address": "3MpVUtNmLbb8r5x9k81hqqzTXH7xN8JxFTd",
+      "received": false,
+      "id": 1
+    },
+    {
+      "address": "3Mp3MrnvAjotssESr8QCc3gj33jsGrgpQ4r",
+      "received": false,
+      "id": 2
+    },
+    {
+      "address": "3N2DB8mzMuX3oDkjKghnJ3eyYvGZRJJHU8H",
+      "received": false,
+      "id": 3
+    }
+  ]
 }
